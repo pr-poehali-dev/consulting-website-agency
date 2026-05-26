@@ -1,6 +1,9 @@
 import { useState } from "react";
 import Icon from "@/components/ui/icon";
 
+const BRAND_NAME = "Orion";
+const BRAND_SUB = "CONSULTING";
+
 type IconName = string;
 
 const HERO_IMAGE = "https://cdn.poehali.dev/projects/03a1501e-da0c-41bd-b575-cb2d7ab65c2d/files/b8773f25-61c2-491b-863b-819138c5b374.jpg";
@@ -323,11 +326,11 @@ export default function Index() {
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
           <a href="#" className="flex items-center gap-3">
             <div className="w-8 h-8 flex items-center justify-center border" style={{ borderColor: "var(--gold)" }}>
-              <span className="font-display text-sm font-bold" style={{ color: "var(--gold)" }}>Л</span>
+              <span className="font-display text-sm font-bold" style={{ color: "var(--gold)" }}>O</span>
             </div>
             <div>
-              <span className="font-display text-lg font-semibold text-white leading-none">ЛексБух</span>
-              <span className="block font-body tracking-widest" style={{ color: "var(--gold)", fontSize: "0.6rem" }}>КОНСАЛТИНГ</span>
+              <span className="font-display text-lg font-semibold text-white leading-none">{BRAND_NAME}</span>
+              <span className="block font-body tracking-widest" style={{ color: "var(--gold)", fontSize: "0.6rem" }}>{BRAND_SUB}</span>
             </div>
           </a>
 
@@ -772,11 +775,11 @@ export default function Index() {
             <div>
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-8 h-8 flex items-center justify-center border" style={{ borderColor: "var(--gold)" }}>
-                  <span className="font-display text-sm font-bold" style={{ color: "var(--gold)" }}>Л</span>
+                  <span className="font-display text-sm font-bold" style={{ color: "var(--gold)" }}>O</span>
                 </div>
                 <div>
-                  <span className="font-display text-lg font-semibold text-white">ЛексБух</span>
-                  <span className="block font-body tracking-widest" style={{ color: "var(--gold)", fontSize: "0.6rem" }}>КОНСАЛТИНГ</span>
+                  <span className="font-display text-lg font-semibold text-white">{BRAND_NAME}</span>
+                  <span className="block font-body tracking-widest" style={{ color: "var(--gold)", fontSize: "0.6rem" }}>{BRAND_SUB}</span>
                 </div>
               </div>
               <p className="font-body text-xs text-gray-500 leading-relaxed">Профессиональные бухгалтерские и юридические услуги для бизнеса с 2008 года.</p>
@@ -797,8 +800,8 @@ export default function Index() {
             ))}
           </div>
           <div className="border-t flex flex-col md:flex-row items-center justify-between gap-4 pt-6" style={{ borderColor: "rgba(200,168,90,0.15)" }}>
-            <p className="font-body text-xs text-gray-600">© 2008–2026 ЛексБух Консалтинг. Все права защищены.</p>
-            <p className="font-body text-xs text-gray-600">ООО «ЛексБух Консалтинг» · ИНН 7701234567 · ОГРН 1087701234567</p>
+            <p className="font-body text-xs text-gray-600">© 2008–2026 Orion Consulting. Все права защищены.</p>
+            <p className="font-body text-xs text-gray-600">ООО «Orion Consulting» · ИНН 7701234567 · ОГРН 1087701234567</p>
           </div>
         </div>
       </footer>
