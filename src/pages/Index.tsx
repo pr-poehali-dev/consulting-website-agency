@@ -396,7 +396,7 @@ export default function Index() {
             <div className="grid grid-cols-2 md:grid-cols-4">
               {[
                 { num: "2", label: "года на рынке" },
-                { num: "1 200+", label: "клиентов" },
+                { num: "200+", label: "клиентов" },
                 { num: "98%", label: "дел выиграно" },
                 { num: "3 млрд ₽", label: "сохранено клиентам" },
               ].map((s, i) => (
@@ -479,7 +479,7 @@ export default function Index() {
             <div className="relative">
               <img src={TEAM_IMAGE} alt="Команда" className="w-full object-cover" style={{ height: "420px" }} />
               <div className="absolute -bottom-6 -left-6 p-6" style={{ backgroundColor: "var(--gold)" }}>
-                <p className="font-display text-4xl font-bold" style={{ color: "var(--navy-dark)" }}>1 200+</p>
+                <p className="font-display text-4xl font-bold" style={{ color: "var(--navy-dark)" }}>200+</p>
                 <p className="font-body text-xs font-semibold uppercase tracking-widest" style={{ color: "var(--navy)" }}>довольных клиентов</p>
               </div>
             </div>
