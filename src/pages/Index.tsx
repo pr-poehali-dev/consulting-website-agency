@@ -374,7 +374,7 @@ export default function Index() {
           <div className="max-w-2xl">
             <div className="flex items-center gap-3 mb-6">
               <div className="divider-gold" />
-              <span className="section-label">Консалтинговое агентство с 2008 года</span>
+              <span className="section-label">Консалтинговое агентство с 2024 года</span>
             </div>
             <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-light leading-tight mb-6 text-white">
               Юридическая и<br />
@@ -395,7 +395,7 @@ export default function Index() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-2 md:grid-cols-4">
               {[
-                { num: "16+", label: "лет на рынке" },
+                { num: "2", label: "года на рынке" },
                 { num: "1 200+", label: "клиентов" },
                 { num: "98%", label: "дел выиграно" },
                 { num: "3 млрд ₽", label: "сохранено клиентам" },
@@ -454,11 +454,11 @@ export default function Index() {
                 <span className="section-label">О компании</span>
               </div>
               <h2 className="font-display text-4xl md:text-5xl font-light text-white mb-6">
-                16 лет защищаем<br />
+                2 года защищаем<br />
                 <em style={{ color: "var(--gold)" }}>интересы бизнеса</em>
               </h2>
               <p className="font-body text-gray-300 leading-relaxed mb-6">
-                Орион Консалтинг основан в 2008 году. Мы объединили под одной крышей опытных бухгалтеров, налоговых консультантов и юристов — чтобы вы получали комплексную защиту без необходимости обращаться в несколько мест.
+                Орион Консалтинг основан в 2024 году. Мы объединили под одной крышей опытных бухгалтеров, налоговых консультантов и юристов — чтобы вы получали комплексную защиту без необходимости обращаться в несколько мест.
               </p>
               <p className="font-body text-gray-300 leading-relaxed mb-8">
                 Наша миссия — освободить предпринимателей от административной нагрузки и правовых рисков, чтобы они могли сосредоточиться на развитии бизнеса.
@@ -782,7 +782,7 @@ export default function Index() {
                   <span className="block font-body tracking-widest" style={{ color: "var(--gold)", fontSize: "0.6rem" }}>{BRAND_SUB}</span>
                 </div>
               </div>
-              <p className="font-body text-xs text-gray-500 leading-relaxed">Профессиональные бухгалтерские и юридические услуги для бизнеса с 2008 года.</p>
+              <p className="font-body text-xs text-gray-500 leading-relaxed">Профессиональные бухгалтерские и юридические услуги для бизнеса с 2024 года.</p>
             </div>
             {[
               { title: "Услуги", links: ["Бухгалтерский аутсорсинг", "Налоговое консультирование", "Корпоративное право", "Судебное представительство", "Регистрация компаний"] },
@@ -800,7 +800,7 @@ export default function Index() {
             ))}
           </div>
           <div className="border-t flex flex-col md:flex-row items-center justify-between gap-4 pt-6" style={{ borderColor: "rgba(200,168,90,0.15)" }}>
-            <p className="font-body text-xs text-gray-600">© 2008–2026 Orion Consulting. Все права защищены.</p>
+            <p className="font-body text-xs text-gray-600">© 2024–2026 Orion Consulting. Все права защищены.</p>
             <p className="font-body text-xs text-gray-600">ООО «Orion Consulting» · ИНН 7701234567 · ОГРН 1087701234567</p>
           </div>
         </div>
